@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+        "module": "commonjs",
+        "lib": ["es2017", "es7", "es6"],
+        "allowJs": true,
+        "outDir": "./public",
+        "strict": true,
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "noImplicitAny": false,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    }
+}
