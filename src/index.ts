@@ -4,7 +4,7 @@ import commands from "./commands";
 import bot from "./core/bot";
 import { development, production } from "./utils/launch";
 
-commands(bot);
+bot.use(commands);
 
 process.env.NODE_ENV === "development" ? development(bot) : production(bot);
 

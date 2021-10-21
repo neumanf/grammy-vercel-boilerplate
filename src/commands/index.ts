@@ -1,9 +1,9 @@
-import { Bot, Context } from "grammy";
+import { Composer } from "grammy";
 
 import hello from "./hello";
 
-const commands = (bot: Bot<Context>): void => {
-    bot.command("hello", hello);
-};
+const composer = new Composer();
 
-export default commands;
+composer.command("hello", hello);
+
+export default composer;
